@@ -1,0 +1,95 @@
+@media only screen and (min-width: 560px) {
+//HEADER    
+    .content1{
+        height: 100vh;
+    }
+    .sign-in{
+        margin-right: 50px;
+    }
+    .left-side{
+        margin-left: 50px;
+    }
+    .grow{
+        text-align: left;
+        flex-grow: 1;
+    }
+    .Message{
+        margin-top: 13%;
+    }
+    .Message h1 {
+        font-size: 180%;
+    }
+    div .play {
+        margin-top: 30px;
+    }
+    div .play .watch{
+        margin-left: -30px;
+        margin-right: 10px;
+    }
+//MAIN1
+//MAIN2
+//MAIN3
+    .main3{
+        height: 60vh;
+    }
+    .content3 i{
+        bottom: 40px;
+    }
+    .content3 i.left{
+        left: -240px;
+    }
+
+    .content3 i.right{
+        right: -240px;
+    }
+//MAIN4
+    .content4{
+        float: left;
+        margin-left: 50px;
+    }
+//MAIN5
+    .column{
+        height: 100vh;
+        background-size: 50% 120%;
+    }
+    .features-left, 
+    .features-right{
+        margin-top: 40px; 
+    }
+//MAIN6
+    .content6{
+        margin-right: 50px;
+    }
+//MAIN7
+    .content7 .text-wrap p{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .content7 .column-wrap{
+        margin: 100px 100px;
+        padding-bottom: 100px;
+    }
+//MAIN8    
+//FOOTER   
+    
+    .content9 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 50px;
+    } 
+    .content9 li {
+        padding: 5px;
+        font-size: 100%;
+    }
+    .content9 img{
+        margin: 0px 5px;
+    }
+    select {
+        font-size: 100%;
+    }
+} // end media query
